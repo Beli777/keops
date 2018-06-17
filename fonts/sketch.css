@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sketch_Block_0';
+    src: url('fonts/Sketch_Block_0.eot');
+    src: url('fonts/Sketch_Block_0.eot') format('embedded-opentype'),
+         url('fonts/Sketch_Block_0.woff2') format('woff2'),
+         url('fonts/Sketch_Block_0.woff') format('woff'),
+         url('fonts/Sketch_Block_0.ttf') format('truetype'),
+         url('fonts/Sketch_Block_0.svg#Sketch_Block_0') format('svg');
+}

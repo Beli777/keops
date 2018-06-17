@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'museo300';
+    src: url('fonts/Museo300Regular_0.eot');
+    src: url('fonts/Museo300Regular_0.eot') format('embedded-opentype'),
+         url('fonts/Museo300Regular_0.woff2') format('woff2'),
+         url('fonts/Museo300Regular_0.woff') format('woff'),
+         url('fonts/Museo300Regular_0.ttf') format('truetype'),
+         url('fonts/Museo300Regular_0.svg#Museo300Regular_0') format('svg');
+}
+@font-face {
+    font-family: 'museo700';
+    src: url('fonts/Museo700Regular.eot');
+    src: url('fonts/Museo700Regular.eot') format('embedded-opentype'),
+         url('fonts/Museo700Regular.woff2') format('woff2'),
+         url('fonts/Museo700Regular.woff') format('woff'),
+         url('fonts/Museo700Regular.ttf') format('truetype'),
+         url('fonts/Museo700Regular.svg#Museo700Regular') format('svg');
+}
+@font-face {
+    font-family: 'museo500';
+    src: url('fonts/Museo500Regular_0.eot');
+    src: url('fonts/Museo500Regular_0.eot') format('embedded-opentype'),
+         url('fonts/Museo500Regular_0.woff2') format('woff2'),
+         url('fonts/Museo500Regular_0.woff') format('woff'),
+         url('fonts/Museo500Regular_0.ttf') format('truetype'),
+         url('fonts/Museo500Regular_0.svg#Museo500Regular_0') format('svg');
+}
+@font-face {
+    font-family: 'sketch';
+    src: url('fonts/Sketch_Block_0.eot');
+    src: url('fonts/Sketch_Block_0.eot') format('embedded-opentype'),
+         url('fonts/Sketch_Block_0.woff2') format('woff2'),
+         url('fonts/Sketch_Block_0.woff') format('woff'),
+         url('fonts/Sketch_Block_0.ttf') format('truetype'),
+         url('fonts/Sketch_Block_0.svg#Sketch_Block_0') format('svg');
+}
