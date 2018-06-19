@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="about-us container scroll">
-      <div class="about-us-section">
+      <div name="myAnchor" id="myAnchor" class="about-us-section">
         <h2>O nama</h2>
         <div class="about-us-section-holder">
           <h3>Palačinkarnica Keops</h3>
@@ -165,7 +165,7 @@
           <p>
             Probajte nešto osvežavajuće - slatki nugat, plazmu i sladoled i kiselkasti ukus preliva od višanja. Godiće Vam!
           </p>
-          <a href="#">Pogledajte ceo meni</a>
+          <a href="menu-splav.php">Pogledajte ceo meni</a>
         </div>
         <div id="slk-2" class="slider-menu-holder-text">
           <h3>No. 5</h3>
@@ -173,7 +173,7 @@
           <p>
             Čuvena palačinka br. 5 u svom pohovanom izdanju će ostaviti bez daha sve koji se uhvate u koštac s njom!
           </p>
-          <a href="#">Pogledajte ceo meni</a>
+          <a href="menu-splav.php">Pogledajte ceo meni</a>
         </div>
       </div>
     </div>

@@ -638,6 +638,7 @@ a:hover{
 }
 .tab_content-holder h2{
   color: #150a07;
+  text-align: left;
 }
 .tab_content span,a{
   color: #150a07;
@@ -821,6 +822,68 @@ a:hover{
   margin: 0 250px;
   margin-bottom: 30px;
   font-family: "museo500", sans-serif;
+}
+.menu .slider{
+  height: auto;
+}
+.menu .slider__holder{
+  top: 16%;
+}
+.menu .slider__icons{
+  top: 15.8%;
+}
+.menu .slider__scroll {
+  top: 38%;
+}
+.menu-page h2{
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "sketch", sans-serif;
+  color: #6f4937;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+.menu-page-holder{
+  padding: 0 175px;
+  color: #6f4937;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.menu-category{
+  width: 490px;
+  font-size: 14px;
+}
+.menu-category-header,
+.menu-category-body-block{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #6f4937;
+}
+.menu-category-header h3{
+  font-weight: bold;
+  font-size: 18px;
+}
+.menu-pancakes .menu-category-body-block div:first-child{
+  display: flex;
+}
+.menu-pancakes .menu-category-body-block span{
+  padding-left: 15px;
+}
+.menu-category-body-block{
+  margin-bottom: 3px;
+}
+.menu-category-header{
+  margin-bottom: 10px;
+}
+.menu-category span{
+  color: #6f4937;
+  font-size: 14px;
+  letter-spacing: 0px;
+  margin: 0;
+  display: inline-block;
 }
 /* Breakpoints */
 @media screen and (min-width: 1025px) and (max-width: 1439px){

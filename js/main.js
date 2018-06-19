@@ -80,6 +80,7 @@ var WM = (function($) {
         $('.tab_content').hide();
 
         var selectTab = $(this).find('a').attr("href");
+        event.preventDefault();
 
         $(selectTab).fadeIn();
       });
