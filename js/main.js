@@ -85,11 +85,22 @@ var WM = (function($) {
         $(selectTab).fadeIn();
       });
   }
+  var hover = function(){
+    $("#hoverShow").hover(
+      function () {
+       $('.dropdown').css('display','block');
+      },
+      function () {
+       $('.dropdown').css('display','none');
+      }
+      );
+  }
   var ready = function() {
     scrollClick();
     rotateClick();
     paginationFunction();
     tabs();
+    hover();
   };
 
   // Only expose the ready function to the world

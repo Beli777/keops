@@ -1504,8 +1504,8 @@
 </div>
 <?php include 'includes/location.php' ?>
 <?php include 'includes/newsletter.php' ?>
-<?php include 'includes/footer.php' ?>
 </div>
+<?php include 'includes/footer.php' ?>
 </body>
 <?php include 'includes/scripts.php' ?>
 </html>

@@ -5,7 +5,15 @@
   <div class="navigation__holder">
     <a href="index.php">Početna</a>
     <a href="index.php">O nama</a>
-    <a id="hoverShow" href="menu-splav.php">Jelovnik</a>
+    <div id="hoverShow" class="hoverShow">
+    <a href="#">
+      Jelovnik
+    </a>
+    <ul class="dropdown">
+      <li><a href="menu-splav.php">- Meni Splav</a></li>
+      <li><a href="menu-kopaonik.php">- Meni Kopaonik</a></li>
+    </ul>
+    </div>
     <a href="news.php">Vesti</a>
     <a href="index.php">Kontakt</a>
     <div style="display: flex;align-items:center;">
