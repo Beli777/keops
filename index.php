@@ -7,7 +7,10 @@
   <div class="homepage">
     <?php include 'includes/header.php' ?>
     <div class="slider">
-      <img src="img/slider.jpg"/>
+      <picture>
+        <source srcset="img/slider-mobile.png" media="(max-width: 1024px)">
+        <img srcset="img/slider.jpg">
+      </picture>
       <div class="slider__holder">
         <h1>Već 18 godina zajedno kreiramo poslastice</h1>
       </div>
@@ -179,7 +182,10 @@
     </div>
     <?php include 'includes/blog.php' ?>
     <div class="nugat container">
-      <img src="img/nugat.png"/>
+      <picture>
+        <source srcset="img/keops-nugat-mobile.png" media="(max-width: 1024px)">
+        <img srcset="img/nugat-png.jpg">
+      </picture>
     </div>
     <?php include 'includes/location.php' ?>
     <?php include 'includes/newsletter.php' ?>
