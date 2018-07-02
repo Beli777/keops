@@ -927,7 +927,7 @@ a:hover{
   display: none;
 }
 .close{
-  display: none;
+  display: none !important;
 }
 @media screen and (max-width: 767px){
   html{
@@ -1325,7 +1325,7 @@ display: block;
   position: absolute;
 top: 20px;
 right: 31px;
-display: block;
+display: block !important;
 cursor: pointer;
 }
 .menu-category{
