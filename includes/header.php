@@ -2,7 +2,8 @@
   <div>
     <a href="index.php"><img src="img/logo.png"/></a>
   </div>
-  <div class="navigation__holder">
+  <div class="navigation__holder mobile-navigation">
+    <img class="close" src="img/close.png"/>
     <a href="index.php">Početna</a>
     <a href="index.php">O nama</a>
     <div id="hoverShow" class="hoverShow">
@@ -20,5 +21,8 @@
       <span style="margin-bottom: 0;" class="active">Srb</span>
       <!-- <span style="margin-bottom: 0;">/Eng</span> -->
     </div>
+  </div>
+  <div class="trigger">
+    <img style="width: 70%;" src="img/hamburger.png"/>
   </div>
 </nav>

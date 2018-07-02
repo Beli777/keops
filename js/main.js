@@ -95,12 +95,23 @@ var WM = (function($) {
       }
       );
   }
+  var trigger = function(){
+    var button = $('.trigger');
+    var close = $('.close');
+    button.on('click', function(){
+      $('.mobile-navigation').css('display','block');
+    });
+    close.on('click', function(){
+      $('.mobile-navigation').css('display','none');
+    });
+  }
   var ready = function() {
     scrollClick();
     rotateClick();
     paginationFunction();
     tabs();
     hover();
+    trigger();
   };
 
   // Only expose the ready function to the world
