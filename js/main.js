@@ -106,7 +106,6 @@ var WM = (function($) {
     });
      if ($(window).width() < 1024) {
        var closeMobile = $('.closeMobile');
-       console.log('nesto')
        closeMobile.on('click', function(){
          $('.mobile-navigation').css('display','none');
        });
