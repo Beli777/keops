@@ -947,6 +947,9 @@ a:hover{
   .displayNone{
     display: none !important;
   }
+  html{
+        overflow-x: hidden;
+  }
   .homepage .slider__holder {
     position: absolute;
     top: 35%;
@@ -1297,7 +1300,7 @@ display: block;
     background: white;
     width: 100%;
     opacity: 0.9;
-        padding-top: 50px;
+        padding-top: 125px;
 }
 .mobile-navigation a{
 margin-right: 20px;
@@ -1311,7 +1314,7 @@ display: block;
 color: black;
 text-align: center;
 margin-bottom: 50px;
-font-size: 30px;
+    font-size: 24px;
 }
 .tab_content iframe{
   width: 100%;
@@ -1367,6 +1370,9 @@ cursor: pointer;
 }
 .trigger-icons a{
   margin: 0;
+}
+.trigger-icons a:last-child i{
+      transform: rotate(90deg);
 }
 .trigger-icons i{
   font-weight: 900;
