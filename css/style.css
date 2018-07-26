@@ -27,6 +27,9 @@ a:hover{
 .follow{
   text-align: center;
 }
+.trigger-icons{
+  display: none;
+}
 .follow img{
     width: 40% !important;
 }
@@ -833,7 +836,7 @@ a:hover{
   top: 15.8%;
 }
 .menu .slider__scroll {
-  top: 38%;
+    top: 49%;
 }
 .menu-page h2{
   font-size: 36px;
@@ -938,6 +941,9 @@ a:hover{
   .homepage .slider__icons{
     display: none;
   }
+  .displayNone{
+    display: none !important;
+  }
   .homepage .slider__holder {
     position: absolute;
     top: 35%;
@@ -950,6 +956,9 @@ a:hover{
     text-align: center;
     font-family: 'museo500', sans-serif;
     text-transform: uppercase;
+  }
+  .homepage.menu .slider__holder{
+    top: 22%;
   }
   .homepage .slider__holder h1 {
     font-size: 26px;
@@ -1131,7 +1140,8 @@ display: block;
 .social a {
     text-align: center;
     transition: .3s all ease-in-out;
-    display: block;
+    display: inline-block;
+    width: 49%;
 }
 .social {
     display: block;
@@ -1319,7 +1329,7 @@ font-size: 30px;
 display: block;
 }
 .navigation.black{
-  padding: 10px 6.5%;
+  padding: 10px;
 }
 .close{
   position: absolute;
@@ -1347,4 +1357,24 @@ cursor: pointer;
 .menu-category img{
   width: 100%;
 }
+.trigger-icons{
+  position: absolute;
+  right: 100px;
+  display: block;
+}
+.trigger-icons a{
+  margin: 0;
+}
+.trigger-icons i{
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+  display: inline-block;
+  margin-left: 25px;
+}
+}
+@media screen and (max-width: 375px){
+  .navigation{
+        max-width: 375px;
+  }
 }

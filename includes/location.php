@@ -1,4 +1,4 @@
-<div class="location container">
+<div data-aos="fade" id="kontakt" class="location container">
   <h2>kontakT I LOKACIJE</h2>
   <div class="location__holder">
     <ul class="tabs">

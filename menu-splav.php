@@ -7,7 +7,10 @@
 <div class="homepage menu">
   <?php include 'includes/header.php' ?>
 <div class="slider">
-  <img src="img/menu-splav.png"/>
+  <picture>
+    <source srcset="img/menu-splav-mobile.png" media="(max-width: 1024px)">
+    <img src="img/menu-splav.png"/>
+  </picture>
   <div class="slider__holder">
     <h1>Meni - Splav</h1>
   </div>
@@ -32,7 +35,7 @@
 </div>
 <div class="menu-page container scroll">
   <h2>Jelovnik</h2>
-  <div class="menu-page-holder">
+  <div data-aos="fade-right" class="menu-page-holder">
     <div>
       <div class="menu-category">
         <div class="menu-category-header">
@@ -1114,7 +1117,7 @@
 </div>
 <div class="menu-page container scroll">
   <h2>KARTA PICA</h2>
-  <div style="padding-left: 0;" class="menu-page-holder">
+  <div data-aos="fade-right" style="padding-left: 0;" class="menu-page-holder">
     <div>
       <div class="menu-category">
         <img src="img/sladoled.jpg"/>

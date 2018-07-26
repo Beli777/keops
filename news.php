@@ -7,7 +7,10 @@
 <div class="homepage news">
   <?php include 'includes/header.php' ?>
 <div class="slider">
-  <img src="img/news.png"/>
+  <picture>
+    <source srcset="img/vesti-mobile.jpg" media="(max-width: 1024px)">
+    <img src="img/news.png"/>
+  </picture>
   <div class="slider__holder">
     <h1>PRATITE Najnovije vesti</h1>
   </div>

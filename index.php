@@ -12,9 +12,9 @@
         <img srcset="img/slider.jpg">
       </picture>
       <div class="slider__holder">
-        <h1>Već 18 godina zajedno kreiramo poslastice</h1>
+        <h1 data-aos="fade">Već 18 godina zajedno kreiramo poslastice</h1>
       </div>
-      <div class="slider__icons">
+      <div data-aos="fade-right" class="slider__icons">
         <a href="https://www.facebook.com/keopspalacinkarnica/?ref=br_rs" target="_blank"><i class="fab fa-facebook-square"></i></a>
         <a href="https://www.instagram.com/keops.rs/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://goo.gl/maps/TrQNCpGbgRK2" target="_blank"><i class="fab fa-google-plus-g"></i></a>
@@ -25,7 +25,7 @@
           <img src="img/follow.png"/>
         </div>
       </div>
-      <div class="slider__scroll">
+      <div data-aos="fade-down" class="slider__scroll">
         <span class="slider__scroll-text">ZAKORAČITE U NAŠ SLATKI SVET</span>
         <div class="slider__scroll-holder">
         <div class="slider__scroll-line"></div>
@@ -33,10 +33,10 @@
         </div>
       </div>
     </div>
-    <div class="about-us container scroll">
+    <div id="about-us" class="about-us container scroll">
       <div name="myAnchor" id="myAnchor" class="about-us-section">
         <h2>O nama</h2>
-        <div class="about-us-section-holder">
+        <div data-aos="fade-left" class="about-us-section-holder">
           <h3>Palačinkarnica Keops</h3>
           <div class="flex-first">
             <div>
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div style="margin-top: 300px;" class="about-us-section-holder about-us-section-holder--second">
+        <div data-aos="fade-right" style="margin-top: 300px;" class="about-us-section-holder about-us-section-holder--second">
           <h3>Pekara Keops</h3>
           <div class="flex-first">
             <div>
@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div style="margin-top: 300px;" class="about-us-section-holder about-us-section-holder--third">
+        <div data-aos="fade-left" style="margin-top: 300px;" class="about-us-section-holder about-us-section-holder--third">
           <h3>Apres Ski Kopaonik</h3>
           <div class="flex-first">
             <div>
@@ -106,7 +106,7 @@
           </div>
         </div>
 
-        <div style="margin-top: 300px;" class="about-us-section-holder about-us-section-holder--fourth">
+        <div data-aos="fade" style="margin-top: 300px;" class="about-us-section-holder about-us-section-holder--fourth">
           <h3>Keops Ušće</h3>
           <div class="flex-first">
             <div>
@@ -184,7 +184,7 @@
     <div class="nugat container">
       <picture>
         <source srcset="img/keops-nugat-mobile.png" media="(max-width: 1024px)">
-        <img srcset="img/nugat-png.jpg">
+        <img srcset="img/nugat.png">
       </picture>
     </div>
     <?php include 'includes/location.php' ?>
