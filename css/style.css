@@ -932,6 +932,9 @@ a:hover{
 .close{
   display: none !important;
 }
+.displayNone{
+  display: block;
+}
 @media screen and (max-width: 767px){
   html{
     font-size: 1.303780964797914vw;

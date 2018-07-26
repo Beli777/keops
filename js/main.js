@@ -98,16 +98,20 @@ var WM = (function($) {
   var trigger = function(){
     var button = $('.trigger');
     var close = $('.close');
-    var closeMobile = $('.closeMobile');
     button.on('click', function(){
       $('.mobile-navigation').css('display','block');
     });
     close.on('click', function(){
       $('.mobile-navigation').css('display','none');
     });
-    closeMobile.on('click', function(){
-      $('.mobile-navigation').css('display','none');
-    });
+     if ($(window).width() < 1024) {
+       var closeMobile = $('.closeMobile');
+       console.log('nesto')
+       closeMobile.on('click', function(){
+         $('.mobile-navigation').css('display','none');
+       });
+
+     }
   }
   var ready = function() {
     scrollClick();
