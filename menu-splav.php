@@ -1120,7 +1120,10 @@
   <div data-aos="fade-right" style="padding-left: 0;" class="menu-page-holder">
     <div>
       <div class="menu-category">
-        <img src="img/sladoled.jpg"/>
+        <picture>
+          <source srcset="img/sokovi.png" media="(max-width: 1024px)">
+          <img style="width: 100%;" src="img/sokovi.png"/>
+        </picture>
       </div>
     </div>
     <div>

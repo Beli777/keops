@@ -23,8 +23,8 @@
     </div>
   </div>
   <div class="trigger-icons">
+    <a style="display:none" href="tel:+381600373137"><i class="fas fa-phone"></i></a>
     <a href="#kontakt"><i class="fas fa-map-marker-alt"></i></a>
-    <a href="tel:+381600373137"><i class="fas fa-phone"></i></a>
   </div>
   <div class="trigger">
     <img style="width: 70%;" src="img/hamburger.png"/>
